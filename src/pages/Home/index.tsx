@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import Button from '../../components/Button';
 
 import Logo from '../../components/Logo';
@@ -44,7 +43,6 @@ const Home: React.FC = () => {
                 label={`ASSISTIR AGORA`} 
                 key='Button filme' 
                 icon={<BsPlay className='iconeBotao'/>}
-              
               />
               
               <Button 
@@ -52,7 +50,6 @@ const Home: React.FC = () => {
                 label={`ASSISTIR O TRAILER`} 
                 key='Button trailer' 
                 className='trailer'
-                
               />
 
             </Botoes>

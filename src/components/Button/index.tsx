@@ -9,7 +9,14 @@ interface ButtonProps{
   
 }
 
-const Button: React.FC<ButtonProps> = ({onClick, label, preenchido,icon, className,  ...rest }) => {
+const Button: React.FC<ButtonProps> = ({
+  onClick, 
+  label, 
+  preenchido,
+  icon, 
+  className,  
+  ...rest 
+}) => {
   return (
       <Container 
         preenchido={preenchido} 
